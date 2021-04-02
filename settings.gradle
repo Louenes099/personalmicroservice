@@ -1,0 +1,8 @@
+include 'api'
+include 'utils'
+include ':microservices:song-service'
+include ':microservices:artist-service'
+include ':microservices:genre-service'
+include ':microservices:song-composite-service'
+
+
